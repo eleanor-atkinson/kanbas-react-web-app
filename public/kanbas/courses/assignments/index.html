@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kanbas Navigation</title>
+    <style>
+        table td,
+        table td * {
+            vertical-align: top;
+        }
+    </style>
+</head>
+
+<body>
+    <table width="100%">
+        <tbody>
+            <tr>
+                <td valign="top">
+                    <ul>
+                        <li>
+                            <a href="#">Account</a>
+                        </li>
+                        <li>
+                            <a href="#">Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="./kanbas/course_navigation.html">Courses</a>
+                        </li>
+                        <li>
+                            <a href="#">Calendar</a>
+                        </li>
+                        <li>
+                            <a href="#">Inbox</a>
+                        </li>
+                        <li>
+                            <a href="#">History</a>
+                        </li>
+                        <li>
+                            <a href="#">Studio</a>
+                        </li>
+                        <li>
+                            <a href="#">Commons</a>
+                        </li>
+                        <li>
+                            <a href="#">Help</a>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Modules</a>
+                        </li>
+                        <li>
+                            <a href="#">Piazza</a>
+                        </li>
+                        <li>
+                            <a href="#">Zoom Meetings</a>
+                        </li>
+                        <li>
+                            <a href="#">Assignments</a>
+                        </li>
+                        <li>
+                            <a href="#">Quizzes</a>
+                        </li>
+                        <li>
+                            <a href="#">Grades</a>
+                        </li>
+                        <li>
+                            <a href="#">People</a>
+                        </li>
+                        <li>
+                            <a href="#">Panopto Video</a>
+                        </li>
+                        <li>
+                            <a href="#">Discussions</a>
+                        </li>
+                        <li>
+                            <a href="#">Announcements</a>
+                        </li>
+                        <li>
+                            <a href="#">Pages</a>
+                        </li>
+                        <li>
+                            <a href="#">Files</a>
+                        </li>
+                        <li>
+                            <a href="#">Rubrics</a>
+                        </li>
+                        <li>
+                            <a href="#">Outcomes</a>
+                        </li>
+                        <li>
+                            <a href="#">Collaborations</a>
+                        </li>
+                        <li>
+                            <a href="#">Syllabus</a>
+                        </li>
+                        <li>
+                            <a href="#">Settings</a>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <select>
+                        <option value="VAL1" selected>
+                            SpeedGrader</option>
+                    </select>
+                    <hr>
+                    <h2>Assignment Name</h2>
+                    <input id="assignment-name" value="A1 + ENV + HTML" /><br />
+                    <br />
+                    <form id="textarea">
+                        <textarea cols="20" rows="2">This is the assignment description.</textarea>
+                    </form>
+                    <br />
+                    Points<br />
+                    <input type="number" id="points" value="100" /><br />
+                    <br />
+                    Assignment Group<br />
+                    <select id="assignment-group"> <br />
+                        <option value="ASSIGNMENTS">ASSIGNMENTS</option>
+                    </select>
+                    <br />
+                    <br />
+                    Display Grade as<br />
+                    <select id="display-grade-as"> <br />
+                        <option value="Percentage">Percentage</option>
+                    </select>
+                    <br />
+                    <br />
+                    Submission Type<br />
+                    <select id="submission-type"> <br />
+                        <option value="Online">Online</option> 
+                    </select> <br />
+                    <br />
+                    Online Entry Options <br />
+                    <input type="checkbox" value="text-entry" name="check-text-entry" id="chkbox-text-entry" />
+                    <label for="chkbox-text-entry">Text Entry</label> <br />
+                    <input type="checkbox" value="website-url" name="check-website-url" id="chkbox-website-url" />
+                    <label for="chkbox-website-url">Website URL</label> <br />
+                    <input type="checkbox" value="media-recordings" name="check-media-recordings"
+                        id="chkbox-media-recordings" />
+                    <label for="chkbox-media-recordings">Media Recordings</label> <br />
+                    <input type="checkbox" value="student-anno" name="check-student-anno" id="chkbox-student-anno" />
+                    <label for="chkbox-student-anno">Student Annontation</label> <br />
+                    <input type="checkbox" value="file-uploads" name="check-file-uploads" id="chkbox-file-uploads" />
+                    <label for="chkbox-file-uploads">File Uploads</label> <br />
+                    <br />
+                    Submission Attempts <br />
+                    <select id="submission-attempts"> <br />
+                        <option value="Unlimited">Unlimited</option>
+                    </select>
+                    <br />
+                    <br />
+                    Plagiarism Review <br />
+                    <select id="plagiarism-review"> <br />
+                        <option value="None">None</option>
+                    </select> <br />
+                    <br />
+                    Group Assignment <br />
+                    <input type="checkbox" value="group-assignment" name="check-group-assignment"
+                        id="chkbox-group-assignement" />
+                    <label for="chkbox-group-assignement">This is a group assignment</label> <br />
+                    <br />
+                    Peer Reviews <br />
+                    <input type="checkbox" value="peer-reviews" name="check-peer-reviews" id="chkbox-peer-reviews" />
+                    <label for="chkbox-peer-reviews">Require Peer Reviews</label> <br />
+                    <br />
+                    Assign <br />
+                    Assign to <br />
+                    <input id="Everyone" value="Everyone" /><br />
+                    <br />
+                    Due
+                    <br />
+                    <input type="date" id="text-fields-dob" value="2021-01-01" /><br />
+                    <br />
+                    Available from <br />
+                    <input type="date" id="text-fields-dob" value="2021-01-01" /><br />
+                    <br />
+                    Until <br />
+                    <input type="date" id="text-fields-dob" value="2021-01-01" /><br />
+                    <br />
+                    <button type="button">Cancel</button>
+                    <button type="button">Save</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
