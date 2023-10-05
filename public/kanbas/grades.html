@@ -4,114 +4,181 @@
 <head>
     <meta charset="UTF-8">
     <title>Kanbas</title>
-    <style>table td, table td * {
-        vertical-align: top;
-    }</style>
-</head> 
 
-<body>
-    <table width="100%">
-    <tbody>
-        <tr>
-            <td valign="top">
-                <ul>
-                    <li>
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha384-..." crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css" />
+
+
+</head>
+<div class="container">
+
+    <body>
+        <div class="row">
+            <div class="col-kanbas-nav d-flex justify-content-center">
+                <ul class="list-group kanbas-nav list-unstyled">
+
+                    <li class="kanbas-nav-item active" aria-current="true">
+                        <br>
+                        <i class="fa-xl fa-solid fa-user text-align: center;"></i>
+                        <br>
                         <a href="/kanbas/profile/home.html">Account</a>
+                        <br>
+                        <br>
                     </li>
-                    <li>
-                        <a href="#">Dashboard</a>
+
+                    <li class="kanbas-nav-item">
+                        <i class="fa-xl fa-solid fa-gauge"></i>
+                        <br>
+                        <a href="/kanbas/dashboard/index.html">Dashboard</a>
+                        <br>
+                        <br>
                     </li>
-                    <li>
+
+                    <li class="kanbas-nav-item-courses active" aria-current="true">
+                        <i class="fa-xl fa-solid fa-book"></i>
+                        <br>
                         <a href="/kanbas/courses/course_navigation/index.html">Courses</a>
+                        <br>
+                        <br>
                     </li>
-                    <li>
+
+                    <li class="kanbas-nav-item">
+                        <i class="fa-xl fa-regular fa-calendar"></i>
+                        <br>
                         <a href="#">Calendar</a>
+                        <br>
+                        <br>
                     </li>
-                    <li>
+                    <li class="kanbas-nav-item">
+                        <i class="fa-xl fa-solid fa-inbox"></i>
+                        <br>
                         <a href="#">Inbox</a>
+                        <br>
+                        <br>
                     </li>
-                    <li>
+                    <li class="kanbas-nav-item">
+                        <i class="fa-xl fa-regular fa-clock"></i>
+                        <br>
                         <a href="#">History</a>
+                        <br>
+                        <br>
                     </li>
-                    <li>
+                    <li class="kanbas-nav-item">
+                        <i class="fa-xl fa-solid fa-tv"></i>
+                        <br>
                         <a href="#">Studio</a>
+                        <br>
+                        <br>
                     </li>
-                    <li>
+                    <li class="kanbas-nav-item">
+                        <i class="fa-xl fa-solid fa-arrow-up-right-from-square"></i>
+                        <br>
                         <a href="#">Commons</a>
+                        <br>
+                        <br>
                     </li>
-                    <li>
+                    <li class="kanbas-nav-item">
+                        <i class="fa-xl fa-regular fa-circle-question"></i>
+                        <br>
                         <a href="#">Help</a>
+                        <br>
+                        <br>
                     </li>
                 </ul>
-            </td>
-            <td>
-                <ul>
-                    <li>
+            </div>
+
+            <div class="col-account-nav d-flex justify-content-center">
+                <ul class="list-group account-nav list-unstyled">
+
+                    <li class="account-nav-item">
                         <a href="/kanbas/home.html">Home</a>
                     </li>
-                    <li>
-                        <a href="#">Modules</a>
+                    <li class="account-nav-item">
+                        <a href="./dashboard/index.html">Modules</a>
                     </li>
-                    <li>
+                    <li class="account-nav-item">
                         <a href="#">Piazza</a>
                     </li>
-                    <li>
+                    <li class="account-nav-item">
                         <a href="#">Zoom Meetings</a>
                     </li>
-                    <li>
-                        <a href="/kanbas/assignments/index.html">Assignments</a>
+                    <li class="account-nav-item">
+                        <a href="./assignments/index.html">Assignments</a>
                     </li>
-                    <li>
+                    <li class="account-nav-item">
                         <a href="#">Quizzes</a>
                     </li>
-                    <li>
-                        <a href="/kanbas/grades.html">Grades</a>
+                    <li class="account-nav-item active" aria-current="true">
+                        <a href="grades.html">Grades</a>
                     </li>
-                    <li>
+                    <li class="account-nav-item">
                         <a href="#">People</a>
                     </li>
-                    <li>
-                        <a href="#">Panopto Video</a>
+                    <li class="account-nav-item">
+                        <a href="#">Panotop Video</a>
                     </li>
-                    <li>
+                    <li class="account-nav-item">
                         <a href="#">Discussions</a>
                     </li>
-                    <li>
+                    <li class="account-nav-item">
                         <a href="#">Announcements</a>
                     </li>
-                    <li>
+                    <li class="account-nav-item">
                         <a href="#">Pages</a>
                     </li>
-                    <li>
+                    <li class="account-nav-item">
                         <a href="#">Files</a>
                     </li>
-                    <li>
+                    <li class="account-nav-item">
                         <a href="#">Rubrics</a>
                     </li>
-                    <li>
+                    <li class="account-nav-item">
                         <a href="#">Outcomes</a>
                     </li>
-                    <li>
+                    <li class="account-nav-item">
                         <a href="#">Collaborations</a>
                     </li>
-                    <li>
+                    <li class="account-nav-item">
                         <a href="#">Syllabus</a>
                     </li>
-                    <li>
+                    <li class="account-nav-item">
                         <a href="#">Settings</a>
                     </li>
                 </ul>
-            </td>
+            </div>
+            <div class="col-5 bg-body-light">
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">CS4550.12631.202410</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Grades</li>
+                    </ol>
+                </nav>
+
             <td>
+                <div container>
                 <select>
                     <option value="VAL1" selected>
                         Gradebook</option>
                  </select>
-                <button type="button">Import</button>
-                <select>
-                    <option value="VAL1" selected>
-                        Export</option>
-                 </select>
+                
+                <button type="button"><i class="fa-solid fa-file-import"></i>
+                    Import
+                </button>
+                <div class="dropdown">
+                    <button class="btn-xs btn-light dropdown-toggle" type="button" data-toggle="dropdown">
+                        <i class="fa-solid fa-file-export"></i> Export
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">All files</a></li>
+                    </ul>
+                  </div>
+                </div>
+
                  <button type="button">Configure</button>
                  <h2>Student Names</h2>
                  <form id="student-names">
