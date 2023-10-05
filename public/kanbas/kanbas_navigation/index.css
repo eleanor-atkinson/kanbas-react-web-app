@@ -1,0 +1,36 @@
+.kanbas-nav {
+    width: 85px;
+    text-align: center;
+    background-color: black;
+    color: red;
+    border-radius: 0px;
+    font-size: smaller; 
+    padding: 10px;
+    margin: 5px;
+}
+
+.kanbas-nav-item.active a{
+    border: none;
+    background-color: white; 
+    color: red; 
+    
+}
+
+.kanbas-nav-item a {
+    border: none;
+    background-color: black;
+    color: white; 
+
+}
+
+.fa-user {
+    color: white;
+    text-shadow: 0 0 4px #000;
+} 
+
+.kanbas-nav-item-dashboard.active a{
+    border: none;
+    background-color: black; 
+    color: white; 
+    
+}

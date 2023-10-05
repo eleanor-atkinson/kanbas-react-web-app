@@ -4,95 +4,154 @@
 <head>
     <meta charset="UTF-8">
     <title>Kanbas</title>
-    <style>
-        table td,
-        table td * {
-            vertical-align: top;
-        }
-    </style>
+
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha384-..." crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css" />
 </head>
 
-<body>
-    <table width="100%">
-        <tbody>
-            <tr>
-                <td valign="top">
-                    <ul>
-                        <li>
-                            <a href="/kanbas/profile/home.html">Account</a>
-                        </li>
-                        <li>
-                            <a href="#">Dashboard</a>
-                        </li>
-                        <li>
-                            <a href="/kanbas/courses/course_navigation/index.html">Courses</a>
-                        </li>
-                        <li>
-                            <a href="#">Calendar</a>
-                        </li>
-                        <li>
-                            <a href="#">Inbox</a>
-                        </li>
-                        <li>
-                            <a href="#">History</a>
-                        </li>
-                        <li>
-                            <a href="#">Studio</a>
-                        </li>
-                        <li>
-                            <a href="#">Commons</a>
-                        </li>
-                        <li>
-                            <a href="#">Help</a>
-                        </li>
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li>
-                            <a href="#">Notifications</a>
-                        </li>
-                        <li>
-                            <a href="/kanbas/profile/index.html">Profile</a>
-                        </li>
-                        <li>
-                            <a href="#">Files</a>
-                        </li>
-                        <li>
-                            <a href="#">Settings</a>
-                        </li>
-                        <li>
-                            <a href="#">ePortfolios</a>
-                        </li>
-                        <li>
-                            <a href="#">Shared Content</a>
-                        </li>
-                        <li>
-                            <a href="#">The Hub</a>
-                        </li>
-                        <li>
-                            <a href="#">Qwickly Course Tools</a>
-                        </li>
-                        <li>
-                            <a href="#">Global Announcements</a>
-                        </li>
-                    </ul>
-                </td>
-                <td>
+<div class="container">
+
+    <body>
+        <div class="row">
+            <div class="col-profile-kanbas-nav d-flex justify-content-center">
+                <ul class="list-group profile-kanbas-nav list-unstyled">
+
+                    <li class="profile-kanbas-nav-item active" aria-current="true">
+                        <br>
+                        <i class="white-user fa-xl fa-solid fa-user text-align: center;"></i>
+                        <br>
+                        <a href="/kanbas/profile/home.html">Account</a>
+                        <br>
+                        <br>
+                    </li>
+
+                    <li class="kanbas-nav-item-dashboard active" aria-current="true">
+                        <i class="fa-xl fa-solid fa-gauge"></i>
+                        <br>
+                        <a href="/kanbas/dashboard/index.html">Dashboard</a>
+                        <br>
+                        <br>
+                    </li>
+
+                    <li class="profile-kanbas-nav-item">
+                        <i class="fa-xl fa-solid fa-book"></i>
+                        <br>
+                        <a href="/kanbas/courses/course_navigation/index.html">Courses</a>
+                        <br>
+                        <br>
+                    </li>
+
+                    <li class="profile-kanbas-nav-item">
+                        <i class="fa-xl fa-regular fa-calendar"></i>
+                        <br>
+                        <a href="#">Calendar</a>
+                        <br>
+                        <br>
+                    </li>
+                    <li class="profile-kanbas-nav-item">
+                        <i class="fa-xl fa-solid fa-inbox"></i>
+                        <br>
+                        <a href="#">Inbox</a>
+                        <br>
+                        <br>
+                    </li>
+                    <li class="profile-kanbas-nav-item">
+                        <i class="fa-xl fa-regular fa-clock"></i>
+                        <br>
+                        <a href="#">History</a>
+                        <br>
+                        <br>
+                    </li>
+                    <li class="profile-kanbas-nav-item">
+                        <i class="fa-xl fa-solid fa-tv"></i>
+                        <br>
+                        <a href="#">Studio</a>
+                        <br>
+                        <br>
+                    </li>
+                    <li class="profile-kanbas-nav-item">
+                        <i class="fa-xl fa-solid fa-arrow-up-right-from-square"></i>
+                        <br>
+                        <a href="#">Commons</a>
+                        <br>
+                        <br>
+                    </li>
+                    <li class="profile-kanbas-nav-item">
+                        <i class="fa-xl fa-regular fa-circle-question"></i>
+                        <br>
+                        <a href="#">Help</a>
+                        <br>
+                        <br>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-profile-account-nav d-flex justify-content-left">
+                <ul class="list-group profile-account-nav list-unstyled">
+
+                    <li class="profile-account-nav-item text-wrap">
+                        <a href="#">Notifications</a>
+                    </li>
+                    <li class="profile-account-nav-item active text-wrap" aria-current="true">
+                        <a href="/kanbas/profile/index.html">Profile</a>
+                    </li>
+                    <li class="profile-account-nav-item text-wrap">
+                        <a href="#">Files</a>
+                    </li>
+                    <li class="profile-account-nav-item text-wrap">
+                        <a href="#">Settings</a>
+                    </li>
+                    <li class="profile-account-nav-item text-wrap">
+                        <a href="#">ePortfolios</a>
+                    </li>
+                    <li class="profile-account-nav-item text-wrap">
+                        <a href="#">Shared Content</a>
+                    </li>
+                    <li class="profile-account-nav-item text-wrap">
+                        <a href="#">The Hub</a>
+                    </li>
+                    <li class="profile-account-nav-item text-wrap">
+                        <a href="#">Qwickly Course Tools</a>
+                    </li>
+                    <li class="profile-account-nav-item text-wrap">
+                        <a href="#">Global Announcements</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-7">
                 </br>
-                Jose Annunziato's Profile</br></br> <hr> </br>
-                <a href="/kanbas/profile/edit.html"><button style="float: right">&#9998 Edit Profile</button></a>
-                <h2>Jose Annunziato</h2> 
-            <h3>Contact</h3>
-         No registered services, you can add some on the <a href="#">settings</a> page.
-            </br><h3>Biography</h3> 
-    Faculty, Software Engineer, AI, Space, and renewables enthusiast. </br>
-        <h3>Links</h3> 
-        <a href="#">Youtube</a>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+                Jose Annunziato's Profile
+                <hr> </br>
+                <a href="/kanbas/profile/edit.html"><button type="button" class="btn btn-light float-right"><i
+                            class="fa-solid fa-pencil"></i> Edit Profile</button></a>
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <br>
+                </br>
+                <h2>Jose Annunziato</h2>
+                <br>
+                <div class="red-links">
+                    <h3>Contact</h3>
+                    No registered services, you can add <br>
+                    some on the <a href="#">settings</a> page.
+                    <br>
+                    </br>
+                    <h3>Biography</h3>
+                    Faculty, Software Engineer, AI, Space, <br>
+                    and renewables enthusiast. </br>
+                    <br>
+                    <h3>Links</h3>
+                    <i class="fa-solid fa-link"></i>
+                    <a href="https://www.youtube.com/watch?v=xgY59LQfZSA">Youtube</a>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+</div>
 </body>
 
 </html>
