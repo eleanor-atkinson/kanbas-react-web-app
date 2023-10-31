@@ -1,0 +1,18 @@
+.card {
+    width: 18rem;
+}
+
+.card-img-top {
+    background-color: darkblue;
+    width: 18rem;
+    height: 10rem;
+}
+
+.dashboard-course {
+    color: darkblue;
+}
+
+.course-text {
+    color: grey;
+    font-size: small;
+}

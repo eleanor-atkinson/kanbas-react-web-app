@@ -1,0 +1,23 @@
+.horizontal-line {
+	  color: black;
+	  background-color: black;
+	  height: 2px;
+	  border: none;
+	}
+
+	
+.breadcrumb-item a {
+	color: red;
+	text-decoration: none;
+	margin-left: 15px;
+	margin-right: 5px; 
+}
+
+.breadcrumb-item.active {
+	color: black; 
+	margin-left: 5px;
+}
+
+.breadcrumb svg {
+	margin-top: 5px;
+}
