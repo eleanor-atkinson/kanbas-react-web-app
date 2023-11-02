@@ -1,0 +1,43 @@
+.nav-list-group {
+    background-color: black;
+    text-align: center;
+}
+
+.nav-list-group a {
+    background-color: black;
+    color: white; 
+    text-decoration: none;
+    border: none;
+}
+
+.kanbas-nav-item.active {
+    background-color: white;
+    color: red; 
+    border: none;
+    text-decoration: none;
+}
+
+
+.kanbas-nav-item svg {
+    color: red; 
+    width: 2em; 
+    height: 2em;
+    text-align: center;
+    border: none;
+
+}
+
+.kanbas-nav-item.active svg {
+    background-color: white;
+    color: red; 
+    width: 2em; 
+    height: 2em;
+    text-align: center;
+    border: none;
+
+}
+
+.white-background.active {
+    background-color: white;
+}
+

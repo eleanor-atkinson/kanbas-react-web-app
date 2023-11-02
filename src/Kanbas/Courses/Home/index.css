@@ -1,0 +1,15 @@
+.grey-text {
+    color:grey;
+}
+
+.grey-text a {
+    color: red;
+}
+
+.black-text {
+    color: black;
+}
+
+.list-group-item svg {
+    color: black;
+}
