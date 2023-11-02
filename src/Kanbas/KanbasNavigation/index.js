@@ -28,8 +28,9 @@ function KanbasNavigation() {
   };
   const { pathname } = useLocation();
   return (
-    <div className="nav-list-group kanbas-nav" style={{ width: 150 }}>
+    <div className="nav-list-group kanbas-nav" style={{ width: 100 }}>
       {Object.entries(links).map(([link, icon], index) => (
+        <div className="white-background">
         <Link
           key={index}
           to={`/Kanbas/${link}`}
@@ -40,6 +41,7 @@ function KanbasNavigation() {
           {link}
           <br></br>
         </Link>
+        </div>
       ))}
     </div>
   );

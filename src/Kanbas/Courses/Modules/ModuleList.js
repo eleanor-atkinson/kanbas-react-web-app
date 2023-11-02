@@ -4,6 +4,8 @@ import db from "../../Database";
 import { IoMdCheckmarkCircle } from "react-icons/io";
 import { IoCheckmarkCircleOutline } from "react-icons/io5";
 import {BsThreeDotsVertical} from "react-icons/bs"
+import { GoTriangleDown, GoTriangleRight } from "react-icons/go";
+import { PiDotsSixVerticalBold } from "react-icons/pi";
 
 
 function ModuleList() {
@@ -19,8 +21,8 @@ function ModuleList() {
                         <td> <button type="button" class="btn btn-light btn-outline-secondary">Collapse All</button> </td>
                         <td> <button type="button" class="btn btn-light btn-outline-secondary">View Progress</button> </td>
                         <td> <div class="dropdown">
-                            <button type="button" class="btn dropdown-toggle btn-light btn-outline-secondary" data-toggle="dropdown">
-                                <IoCheckmarkCircleOutline style={{ color: "green" }} />
+                            <button type="button" class="btn dropdown-toggle btn-light btn-outline-secondary float-end" data-toggle="dropdown">
+                                <IoCheckmarkCircleOutline size={25} style={{ color: "green" }} />
                                 Publish All
                             </button>
                             <div class="dropdown-menu">
@@ -46,7 +48,12 @@ function ModuleList() {
                         .map((module, index) => (
                             <ul key={index} className="module-list-group">
                                 <li key={index} className="list-group-item list-group-item-secondary">
-                                    <IoMdCheckmarkCircle style={{ color: "green", float: 'right', }} />
+                                <span className="float-start"> <PiDotsSixVerticalBold size={20}/> </span>
+                                <span className="float-start"> <GoTriangleRight size={20}/> </span>
+                                <span className="float-end"> <BsThreeDotsVertical/> </span>
+                                <span className="float-end"> + </span>
+                                <span className="float-end"> <GoTriangleDown /> </span>
+                                    <span className="float-end">  <IoMdCheckmarkCircle style={{ color: "green"}} /> </span>
                                     <h3>{module.name}</h3>
 
                                 </li>

@@ -1,0 +1,12 @@
+.small-text {
+    font-size: 13px; 
+    color: grey;
+}
+
+.red-text {
+    color: red;
+}
+
+.green-border {
+    border-left: solid green;
+}

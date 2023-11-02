@@ -6,3 +6,10 @@
     color: red;
 }
 
+.black-text {
+    color: black;
+}
+
+.list-group-item svg {
+    color: black;
+}

@@ -1,9 +1,6 @@
 .nav-list-group {
     background-color: black;
-    width: 100px; 
     text-align: center;
-    padding: 10px;
-    margin-right: 10px;
 }
 
 .nav-list-group a {
@@ -38,5 +35,9 @@
     text-align: center;
     border: none;
 
+}
+
+.white-background.active {
+    background-color: white;
 }
 

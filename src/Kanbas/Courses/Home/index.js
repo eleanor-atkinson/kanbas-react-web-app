@@ -15,44 +15,49 @@ function Home() {
     return (
         <div className="row">
             <div className="col-8">
+            <br></br>
                 <h2>Home</h2>
                 <ModuleList />
             </div>
+            <br></br>
+            <br></br>
             <div className="col-3">
+            <br></br>
                 <h2>Status</h2>
 
                 <br></br>
 
                 <div className="student-view">
                     <a href="#"><button type="button" class="btn btn-light btn-outline-secondary">
-                        <PiEyeglassesLight style={{ marginRight: "5px" }} />
-                        Student View </button></a>
+                        <PiEyeglassesLight style={{ marginRight: "5px", color: "black" }} />
+                        <span className="black-text">Student View</span> </button></a>
+                        
                 </div>
-
+             
                 <hr></hr>
 
                 <ul class="list-group button-list-group">
                     <li class="list-group-item border-0"> <a href="#"><button type="button" class="btn btn-light btn-outline-secondary float-middle btn-black">
                         <HiArrowRightOnRectangle />
-                        Import Existing Content</button></a> </li>
+                        <span className="black-text"> Import Existing Content</span></button></a> </li>
                     <li class="list-group-item border-0"> <a href="#"><button type="button" class="btn btn-light btn-outline-secondary float-middle">
                         <FaArrowRightFromBracket />
-                        Import from Commons</button></a> </li>
+                        <span className="black-text">Import from Commons</span></button></a> </li>
                     <li class="list-group-item border-0"> <a href="#"><button type="button" class="btn btn-light btn-outline-secondary float-middle">
                         <SlTarget />
-                        Choose Home Page</button></a> </li>
+                        <span className="black-text"> Choose Home Page</span></button></a> </li>
                     <li class="list-group-item border-0"> <a href="#"><button type="button" class="btn btn-light btn-outline-secondary float-middle">
                         <BsBarChartLineFill />
-                        View Course Stream</button></a> </li>
+                        <span className="black-text">View Course Stream</span></button></a> </li>
                     <li class="list-group-item border-0"> <a href="#"><button type="button" class="btn btn-light btn-outline-secondary float-middle">
                         <IoMegaphoneOutline />
-                        New Announcement</button></a> </li>
+                        <span className="black-text">New Announcement</span></button></a> </li>
                     <li class="list-group-item border-0"> <a href="#"><button type="button" class="btn btn-light btn-outline-secondary float-middle">
                         <BsBarChartLineFill />
-                        New Analytics</button></a> </li>
+                        <span className="black-text">New Analytics</span></button></a> </li>
                     <li class="list-group-item border-0"> <a href="#"><button type="button" class="btn btn-light btn-outline-secondary float-middle">
                         <BiBell />
-                        View Course Notifications</button></a> </li>
+                        <span className="black-text">View Course Notifications</span></button></a> </li>
 
 
                 </ul>
