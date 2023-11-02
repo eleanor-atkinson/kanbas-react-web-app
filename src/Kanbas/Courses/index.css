@@ -3,6 +3,7 @@
 	  background-color: black;
 	  height: 2px;
 	  border: none;
+	  width: 400px; 
 	}
 
 	
@@ -21,3 +22,9 @@
 .breadcrumb svg {
 	margin-top: 5px;
 }
+
+.list-group-item svg {
+	margin-right: 5px;
+}
+
+
