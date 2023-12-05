@@ -3,6 +3,9 @@ import HelloWorld from "./Labs/a3/HelloWorld";
 import Kanbas from "./Kanbas";
 import {HashRouter} from "react-router-dom";
 import {Routes, Route, Navigate} from "react-router";
+import UserTable from "./users/table";
+import Account from "./users/account";
+
 function App() {
   return (
     <HashRouter>

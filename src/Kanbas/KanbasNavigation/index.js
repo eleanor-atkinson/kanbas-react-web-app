@@ -2,7 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import './index.css';
 import {CgProfile, } from "react-icons/cg";
 import {TfiDashboard} from "react-icons/tfi";
-import {FaBook} from "react-icons/fa";
+import {FaBook, FaDoorOpen} from "react-icons/fa";
 import {BsCalendar4Week} from "react-icons/bs";
 import {FaInbox} from "react-icons/fa";
 import {RiHistoryFill} from "react-icons/ri";
@@ -11,12 +11,13 @@ import {BiSolidRightArrowCircle} from "react-icons/bi";
 import {RxQuestionMarkCircled} from "react-icons/rx";
 
 
-
 // map routes for url 
 // iterate over array and for every link, render url /Kanbas/Account example
 function KanbasNavigation() {
   const links = {
     "Account": <CgProfile/>,
+    "signin": <FaDoorOpen/>,
+    "signup": <BiSolidRightArrowCircle/>,
     "Dashboard": <TfiDashboard/>,
     "Courses": <FaBook/>,
     "Calendar": <BsCalendar4Week/>,
